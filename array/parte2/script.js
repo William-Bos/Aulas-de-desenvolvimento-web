@@ -35,7 +35,10 @@ console.log(inclui)
 const indice = arr.indexOf("Gandalf")
 console.log(indice)
 
-// cortar (meio que é o ctrl c e ctrl v)
+// Cria um novo array copiando uma parte do array original.,
+//array.slice(inicio, fim);
+//inicio: índice inicial (inclusivo)
+//fim: índice final (exclusivo) → o elemento nesse índice não é incluído. 
 
 const hobbitis = arr.slice(0,4)
 const outros = arr.slice(-4) // comecando la do final do array, -1 é o ultimo, no caso o primeiro de tras para frente, dai nesse exemplo ele puxa o -4 e vai ate -1
