@@ -5,19 +5,12 @@ const matriz = [
 ]
 
 
-
-
-
 let resultado = 0
 for(i=0; i < matriz.length ; i++){
-
-    for( j=0; j< matriz[i].length; j++){
+    for( j=0; j < matriz[i].length; j++){
         elemento = matriz[i][j]
         resultado = resultado + matriz[i][j]
-        
     }
-  
 }
 console.log("A soma de todos os valores é:", resultado);
-
 
